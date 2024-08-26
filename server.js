@@ -75,8 +75,8 @@ app.get('/scrape', async (req, res) => {
     console.log('Data scraped and cached');
     res.json(data);
   } catch (error) {
-    console.error('Error scraping data:', error);
-    res.status(500).json({ error: 'Failed to scrape data' });
+    console.error('Error scraping data: this is line 78 on server js Christian', error);
+    res.status(500).json({ error: 'Failed to scrape data, this is line 79 on server js Christian' });
   }
 });
 
