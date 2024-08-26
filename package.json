@@ -8,7 +8,7 @@
     "npm": "9.5.1"
   },
   "scripts": {
-    "postinstall": "puppeteer install",
+    "heroku-postbuild": "bash postbuild.bash",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
