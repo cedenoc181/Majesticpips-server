@@ -1,5 +1,4 @@
 const express = require('express');
-// process.env.PUPPETEER_CACHE_DIR = '/app/.cache/puppeteer';
 const puppeteer = require('puppeteer');
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -82,5 +81,5 @@ app.get('/scrape', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}/scrape-data`);
+  console.log(`Server is running on http://localhost:${PORT}/scrape`);
 });
