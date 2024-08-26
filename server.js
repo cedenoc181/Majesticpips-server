@@ -24,7 +24,10 @@ app.get('/scrape', async (req, res) => {
     } 
 
     // Scrape new data
-    const browser = await puppeteer.launch({headless: true,});
+    const browser = await puppeteer.launch({
+      headless: true,
+      args: ['--no-sandbox', '--disable-setuid-sandbox']
+    });
 
     const page = await browser.newPage();
     await page.goto('https://markets.ft.com/data/currencies', { waitUntil: 'networkidle2' });
