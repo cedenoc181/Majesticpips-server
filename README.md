@@ -19,3 +19,20 @@ Real-Time Currency Conversion Scraping: The server scrapes currency conversion r
 Caching: The server caches the scraped data for 1 minute to reduce the number of requests made to the source website and improve response times for the frontend.
 
 Error Handling: The server includes basic error handling to manage any issues that arise during the scraping process.
+
+~API Endpoints
+
+-GET /scrape
+
+Scrapes real-time currency conversion data and returns it as a JSON response. The data is cached for 1 minute to optimize performance.
+
+-example response from server fetch
+
+[
+  {
+    "name": "USD/EUR",
+    "abbreviation": "USD",
+    "conversions": "0.85"
+  },
+  ...
+]
