@@ -73,6 +73,14 @@ Usage
 This server is designed to work in conjunction with the MajesticPips frontend application, which serves as a landing page for users to join our Discord community. The frontend makes requests to the '/scrape' endpoint to retrieve real-time currency conversion data, specifically $1 USD to various other currencies. The caching mechanism ensures that the data is served quickly and reduces the load on the source website. This usage of puppeteer is to fill the UI with real-time currency conversion data, specifically $1 USD to various other currencies information.
 
 
+Why use puppeteer library?
+
+First time using the library, very developer friendly, easy to use and integrate with espress applications.
+
+Headless Browser Automation: Puppeteer allows you to control a browser programmatically, which is perfect for scraping dynamic content that requires JavaScript to render.
+
+Flexibility: Puppeteer provides a robust API that makes it easy to interact with web pages, scrape data, and handle complex scenarios like waiting for elements to load.
+
 Contact
 
 For inquiries or support, please contact the developer at Christiancedenob.f@gmail.com.
