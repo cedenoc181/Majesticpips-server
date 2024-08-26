@@ -67,3 +67,12 @@ Start the server:
 Node server.js
 
 The server will be running on http://localhost:3001/scrape.
+
+Usage
+
+This server is designed to work in conjunction with the MajesticPips frontend application, which serves as a landing page for users to join our Discord community. The frontend makes requests to the '/scrape' endpoint to retrieve real-time currency conversion data, specifically $1 USD to various other currencies. The caching mechanism ensures that the data is served quickly and reduces the load on the source website. This usage of puppeteer is to fill the UI with real-time currency conversion data, specifically $1 USD to various other currencies information.
+
+
+Contact
+
+For inquiries or support, please contact the developer at Christiancedenob.f@gmail.com.
