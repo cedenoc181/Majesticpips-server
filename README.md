@@ -66,7 +66,9 @@ Start the server:
 
 Node server.js
 
-The server will be running on http://localhost:3001/scrape.
+The server will be running on http://localhost:5006/scrape.
+
+live server is on https://majesticpips-heroku-server-b132defce748.herokuapp.com/scrape
 
 Usage
 
