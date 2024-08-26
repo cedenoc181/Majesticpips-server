@@ -36,3 +36,34 @@ Scrapes real-time currency conversion data and returns it as a JSON response. Th
   },
   ...
 ]
+
+
+Installation & Setup
+
+To run this server locally:
+
+Clone the repository:
+
+-copy this code into the CLI (SSH):
+
+git clone git@github.com:cedenoc181/Majesticpips-server.git
+
+Navigate to the project directory:
+
+-change directory to <project-directory> in CLI with input below:
+
+cd project-directory
+
+Install the dependencies:
+
+-enter to CLI:
+
+npm install
+
+Start the server:
+
+-enter to CLI:
+
+Node server.js
+
+The server will be running on http://localhost:3001/scrape.
