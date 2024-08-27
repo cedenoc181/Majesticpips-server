@@ -4,9 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 5006;
 const cors = require('cors');
 
-app.use(cors(
-  //for frontend domain
-));
+app.use(cors(Majesticpips.com));
 
 // Store scraped data and timestamp
 let cachedData = null;
@@ -78,8 +76,8 @@ app.get('/scrape', async (req, res) => {
     console.log('Data scraped and cached');
     res.json(data);
   } catch (error) {
-    console.error('Error scraping data: this is line 78 on server js Christian', error);
-    res.status(500).json({ error: 'Failed to scrape data, this is line 79 on server js Christian' });
+    console.error('Error scraping data: this is line 78 on server js', error);
+    res.status(500).json({ error: 'Failed to scrape data, this is line 79 on server js' });
   }
 });
 
