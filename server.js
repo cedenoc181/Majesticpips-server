@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 5006;
 const cors = require('cors');
 
-app.use(cors({ origin: 'https://majesticpips.com/' }));
+app.use(cors());
 
 // Store scraped data and timestamp
 let cachedData = null;
